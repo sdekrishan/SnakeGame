@@ -1,0 +1,21 @@
+body{
+    background-color: greenyellow;
+}
+#head{
+    text-align: center;
+    text-decoration: underline;
+}
+#mycanvas{
+    height: 70vh;
+    width: 70vw;
+    background-color: darkgreen;
+    border:5px solid orange;
+    margin: 6rem 12rem;
+    z-index: 0;
+}
+#score{
+    z-index: 1;
+}
+.btn{
+    margin-bottom: 1rem;
+}
