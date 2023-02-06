@@ -1,15 +1,33 @@
+html,body{
+    padding: 0;
+    margin:0;
+}
 body{
-    background-color: greenyellow;
+    padding: 0;
+    margin:0;
+    background-image: url(https://wallpaperaccess.com/full/1728937.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+    background-position: center;
 }
 #head{
+    width: fit-content;
     text-align: center;
+    margin: auto;
+    padding: 1rem;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 25% 0 25% 0;
+    border:2px solid black;
     text-decoration: underline;
 }
 #mycanvas{
     height: 70vh;
     width: 70vw;
-    background-color: darkgreen;
     border:5px solid orange;
+    background-image: linear-gradient(to right, green, lightgreen);
     margin: 6rem 12rem;
     z-index: 0;
 }
@@ -18,4 +36,11 @@ body{
 }
 .btn{
     margin-bottom: 1rem;
+}
+button{
+    padding: 10px 14px;
+    border:0px;
+    background-color: antiquewhite;
+    color:black;
+    border-radius:1rem;
 }
