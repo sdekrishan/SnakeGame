@@ -1,16 +1,16 @@
 html,body{
     padding: 0;
     margin:0;
-}
-body{
-    padding: 0;
-    margin:0;
     background-image: url(https://wallpaperaccess.com/full/1728937.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     background-position: center;
+}
+#game{
+    display: flex;
+    justify-content: space-evenly;
 }
 #head{
     width: fit-content;
@@ -24,11 +24,11 @@ body{
     text-decoration: underline;
 }
 #mycanvas{
-    height: 70vh;
-    width: 70vw;
+    height: 80%;
+    width:70%;
     border:5px solid orange;
     background-image: linear-gradient(to right, green, lightgreen);
-    margin: 6rem 12rem;
+    margin: 1rem;
     z-index: 0;
 }
 #score{
