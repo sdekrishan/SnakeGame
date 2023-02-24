@@ -168,7 +168,7 @@ function getRandomFood() {
 // for initialising our game and then keep running it after a particular time
 init();
 setInterval(gameLoop, 400);
-
+//game loop
 // for levels
 document.getElementById("pro").addEventListener("click", function () {
   clearInterval(easy);
