@@ -91,8 +91,8 @@ function init() {
         this.cells[0].x > lastX ||
         this.cells[0].y > lastY
       ) {
-        location.reload();
-        alert("Game Over, Press F5 3 three time to continue");
+        // location.reload();
+        alert("Game Over");
         clearInterval(f);
       }
     },
