@@ -35,7 +35,7 @@ h3{
     width:70vw;
     border:5px solid orange;
     background-image: linear-gradient(to right, green, lightgreen);
-margin-top: 7rem;
+margin-top: 4rem;
     margin-left: 18vw;
 }
 
@@ -48,7 +48,7 @@ margin-top: 7rem;
 #btn_div{
     position: absolute;
     left:10px;
-    z-index: 3      ;
+    z-index: 3;
 }
 button{
     padding: 10px 14px;
